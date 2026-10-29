@@ -1,1 +1,106 @@
+body {
+    background-color: #E6E0D6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: #151413;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid #151413;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+nav ul {
+    display: flex;              
+    justify-content: center;    
+    background-color: #8B0000;    
+    padding: 10px;                 
+    list-style-type: none;           
+    margin: 0;
+}
+nav ul li {
+    border-right: 1px solid #151413;
+}
+nav ul li:last-child {
+    border-right: none;
+}
+nav li a {
+    color: #E6E0D6;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+a {
+    color: #151413;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #AD8C6B;
+    color: #E6E0D6;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #AD8C6B;
+    border-radius: 10px;
+    color: #8B0000;
+}
+section.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+section figure {
+    margin: 5px;
+    border: 1px solid #8B0000;
+    width: 100px;
+}
+section figure:hover {
+    border: 1px solid #E6E0D6;
+}
+section figure img {
+    width: 100%;
+    height: auto;
+}
+section figcaption {
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #AD8C6B;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content li {
+    border: none;
+}
+.dropdown-content li a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #E6E0D6;
+}
+.dropdown-content li a:hover {
+    background-color: #8B0000;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover > a {
+    background-color: #AD8C6B;
+}
+
 
