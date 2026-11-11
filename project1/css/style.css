@@ -2,6 +2,12 @@ body {
     background-color: #E6E0D6;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+body.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
 h1 {
     color: #151413;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -69,6 +75,20 @@ section figcaption {
     padding: 5px;
     font-size: 14px;
 }
+footer {
+    margin: 20px;
+    padding: 10px;
+    background-color: #8B0000;
+    border-radius: 10px;
+    color: #E6E0D6;
+    text-align: center;
+}
+body.home-page footer {
+    margin-top: auto;
+}
+footer p {
+    margin: 0;
+}
 section ul {
     list-style-type: disc;
     padding-left: 20px;
@@ -102,5 +122,3 @@ section ul {
 .dropdown:hover > a {
     background-color: #AD8C6B;
 }
-
-
