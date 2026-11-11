@@ -2,7 +2,7 @@ body {
     background-color: #E6E0D6;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-body.home-page {
+body.page-layout {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -83,11 +83,8 @@ footer {
     color: #E6E0D6;
     text-align: center;
 }
-body.home-page footer {
+body.page-layout footer {
     margin-top: auto;
-}
-footer p {
-    margin: 0;
 }
 section ul {
     list-style-type: disc;
